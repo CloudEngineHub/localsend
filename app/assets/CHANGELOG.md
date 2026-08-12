@@ -1,3 +1,13 @@
+## 1.18.1 (2026-08-11)
+
+Android+iOS only hotfix update.
+
+- fix: revert button icon sizes to 24
+- fix: when sending a message that is accepted immediately, a ghost device list tile appears
+- fix(mobile): when sending a link message, the "Open" button overflows
+- fix(android): add missing ACCESS_LOCAL_NETWORK permission that is required for Android 17+
+- i18n: add Belarusian (@pavel-miniutka), Irish (@aindriu80)
+
 ## 1.18.0 (2026-08-10)
 
 - feat(cli): initial CLI release
